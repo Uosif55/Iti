@@ -1,0 +1,97 @@
+/* Body */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eee;
+}
+
+/* Header  */
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(84, 17, 209);
+    text-shadow: 10px 10px 40px;
+}
+
+/* Main  */
+main{
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+     text-align: center;
+     margin: 50px;
+}
+
+/* Sections */
+section{
+    width: 30%;
+    margin-top: 100px;
+    background: white;
+border-radius: 5px;
+}
+
+section:hover{
+    border-radius: 15px;
+    box-shadow: 5px 5px 3px ;
+    translate: 10px 5px;
+    scale: 1.05;
+    transition-delay: .5s;
+}
+
+/* Paragraphs */
+p{
+font-weight: bold;
+font-size: 20px;
+}
+span{
+    text-decoration: line-through;
+}
+strong{
+    color: red;
+}
+
+/* Images */
+.img1,.img2,.img3{
+    width: 75%;
+    height: 300px;
+    padding: 50px;
+}
+
+/* Buttons */
+button{
+    background-color: rgb(52, 136, 136);
+    color: #eee;
+    padding: 10px;
+    margin: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover{
+    scale: 1.1;
+    transition-delay: .2s;
+    translate: 0 -5px ;
+}
+
+.D{
+    background-color: brown;
+}
+
+/* Media Query */
+@media (max-width:768px)
+{
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.Card1 ,.Card2 , .Card3 {
+    width: 100%;
+}
+.img1,.img2,.img3{
+  width:50%;
+    padding: 70px;
+}
+
+}
